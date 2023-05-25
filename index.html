@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Heat map</title>
+  </head>
+<body>
+    <h1 id="title">Monthly Global Land-Surface Temperature</h1>
+    <h3 id="description">1753 - 2015: base temperature 8.66℃</h3>
+    <svg id="chart"></svg>
+    <svg id="legend">
+       <g>
+        <rect x="10" y="10" width="40" height="40" fill="#accbe1"></rect>
+        <text x="60" y="20" fill="black">Variance Of -1 Or Less</text>
+       </g>
+       <g>
+        <rect x="10" y="40" width="40" height="40" fill="#ff7f51"></rect>
+        <text x="60" y="60" fill="black">On Or Below Average</text>
+       </g>
+       <g>
+        <rect x="10" y="80" width="40" height="40" fill="#efcb68"></rect>
+        <text x="60" y="100" fill="black">Above Average</text>
+       </g>
+       <g>
+        <rect x="10" y="120" width="40" height="40" fill="#bf0603"></rect>
+        <text x="60" y="140" fill="black">Variance Of +1 Or More</text>
+       </g>
+    </svg>
+    <div id="tooltip"></div>
+</body>
+</html>
