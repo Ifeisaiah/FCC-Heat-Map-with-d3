@@ -1,0 +1,40 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#chart {
+  min-width: 1200px;
+  min-height: 600px;
+  padding: 10px;
+  border-radius: 10px;
+}
+h1, h3 {
+  margin: 10px;
+}
+svg {
+  background-color: #7678ed83;
+}
+#tooltip {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.651);
+  position: absolute;
+  width: 200px;
+  height: 90px;
+  border-radius: 5px;
+  font-size: 18px;
+  /*play around with the top and right properties to find what works for you */
+  top: 10%;
+  right: 5%;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.cell:hover {
+  fill: black;
+}
