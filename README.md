@@ -1,9 +1,9 @@
 # FCC-Heat-Map-with-d3
-  This is my solution to freeCodeCamp's heat map test from the Data Visualization course. I hope you find this helpful as I myself was thoroughly frustrated before I figured it out by getting help online.
+ This is my solution to freeCodeCamp's heat map test from the Data Visualization course https://codepen.io/Luwa_I/pen/qBJvKzx. I hope you find this helpful as I myself was thoroughly frustrated before I figured it out by getting help online.
 
-First, we are told to create our bar chart similar to this https://heat-map.freecodecamp.rocks/.
+First, we are told to create our heat map similar to this https://heat-map.freecodecamp.rocks/.
 
-And second, our bar chart must have 17 complusory features which although are on freeCodeCamp's official site, will be referenced below.
+And second, our heat map must have 17 complusory features which although are on freeCodeCamp's official site, will be referenced below.
 
 Fulfill the below user stories and get all of the tests to pass. Use whichever libraries or APIs you need. Give it your own personal style.
 
